@@ -1,3 +1,3 @@
 # ignore .git folder
 /.git
-main
+/build
