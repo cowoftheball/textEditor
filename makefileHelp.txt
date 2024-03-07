@@ -1,0 +1,10 @@
+The makefile begins with `main: main.c`.
+This is saying that main is what I want to build, and main.c is required to build main
+
+Next, I use the -Wall flag. This stands for all warnings, and allows for additional warnings from the compiler.
+
+Next, I used the -Wextra and -pedantic flags. These are more warnings
+
+Finally, -std=c99 specifies that the C standard for my code is C99 
+
+After saving the file, I use the `make` command in my terminal to compile the program
